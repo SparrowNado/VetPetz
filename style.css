@@ -1,0 +1,56 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    /* background-color: #A1CCD1; */
+    overflow: hidden; /* Use hidden overflow to contain any changes */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: block; /* Make the links behave like blocks to occupy full width */
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 8px; /* Keep consistent padding */
+    text-decoration: none;
+    border-radius: 22px;
+    font-size: 17px;
+    border: 1px solid transparent; /* Add transparent border to reserve space for border */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Keep only color and background transitions */
+  }
+  
+  /* Change the color and background of links on hover */
+  .topnav a:hover {
+    background-color: #F4F2DE;
+    color: black;
+    border: 1px solid #ccc; /* Add border without affecting size */
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease; /* Add border transition */
+  }
+  
+  /* Add a color to the active/current link */
+  /* .topnav a.active { */
+    /* background-color: #E9B384; */
+    /* color: white; */
+  /* } */
+  
+  body {
+    background-color: #7C9D96;
+    background-image: url('petback.jpg');
+  }
+  
+
+
+  .rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border-radius: 22px;
+
+  }
+
+  .container {
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    
+
+  }
