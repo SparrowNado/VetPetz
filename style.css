@@ -8,7 +8,8 @@
   .topnav a {
     display: block; /* Make the links behave like blocks to occupy full width */
     float: left;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    color:#F4F2DE;
     text-align: center;
     padding: 4px 8px; /* Keep consistent padding */
     text-decoration: none;
@@ -39,18 +40,62 @@
   
 
 
-  .rectangle {
+  /* .rectangle {
     height: 50px;
     width: 100px;
     background-color: white;
     border-radius: 22px;
 
-  }
+  } */
 
-  .container {
+  /* .container {
     width: 500px;
     height: 250px;
     margin: 50px;
     
 
+  } */
+
+
+
+
+  .body {
+    font-family: Georgia, serif;
+    
   }
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+
+
+
+}
+
+
+.rectangle {
+height: 150px;
+width: 150px;
+background-color: aqua;
+border-radius: 10px;
+justify-content: center;
+
+}
+
+.center-rec {
+height: 150px;
+width: 150px;
+background-color: #F4F2DE;
+border-radius: 50%;
+justify-content: center;
+
+}
