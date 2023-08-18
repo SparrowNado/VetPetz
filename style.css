@@ -66,9 +66,13 @@
     background-color:#333;
     padding: 50px;
     border-radius:10px;
+
+
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-image: url('petback.jpg');
+    
     display:flex;
     align-items:center;
     justify-content:center;
@@ -130,8 +134,8 @@
     font-family:sans-serif;
   }
 
-
+/* 
   #rec1, #rec2,#rec3,#rec4 {
 
 
-  }
+  } */
